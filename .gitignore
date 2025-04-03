@@ -2,7 +2,13 @@
 __pycache__/
 *.pyc
 
-# Ignore environment folders
+# Ignore lib, share, scripts, etc, checkpoint, include and environment folders
+Lib/
+share/
+Scripts/
+.ipynb_checkpoints/
+include/
+etc/
 venv/
 .env
 
@@ -12,3 +18,6 @@ venv/
 # Ignore OS-specific files
 .DS_Store
 Thumbs.db
+
+# Ignore config files
+*pyvenv.cfg
